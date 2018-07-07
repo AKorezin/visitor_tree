@@ -81,13 +81,13 @@ Properties:
 - `akorezin\Node::children` - node children.
 
 Methods:
-- `akorezin\Node::setNodeName` - sets name of the node.
-- `akorezin\Node::getNodeName` - gets name of the node.
-- `akorezin\Node::setNodeValue` - sets node value.
-- `akorezin\Node::getNodeValue` - gets node value.
-- `akorezin\Node::setChildren` - sets node children.
-- `akorezin\Node::getChildren` - gets node children.
-- `akorezin\Node::addChild` - adds child to the node.
-- `akorezin\Node::accept` - accepts `akorezin\Visitor`, executes
+- `akorezin\Node::setNodeName()` - sets name of the node.
+- `akorezin\Node::getNodeName()` - gets name of the node.
+- `akorezin\Node::setNodeValue()` - sets node value.
+- `akorezin\Node::getNodeValue()` - gets node value.
+- `akorezin\Node::setChildren()` - sets node children.
+- `akorezin\Node::getChildren()` - gets node children.
+- `akorezin\Node::addChild()` - adds child to the node.
+- `akorezin\Node::accept()` - accepts `akorezin\Visitor`, executes
 `akorezin\Visitor::visit()` for current node and passes it to children
 of the current node.
