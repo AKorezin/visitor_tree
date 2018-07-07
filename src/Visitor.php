@@ -9,5 +9,11 @@ namespace akorezin;
  */
 class Visitor
 {
-
+    /**
+     * @param Node $node
+     */
+    public function visit(Node $node): void
+    {
+        echo $node->getNodeName(),' => ', $node->getNodeValue(), PHP_EOL;
+    }
 }
