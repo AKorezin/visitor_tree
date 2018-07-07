@@ -1,0 +1,19 @@
+{
+  "name": "akorezin/visitor_tree",
+  "type": "project",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Artem Korezin"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "akorezin\\": "src/"
+    }
+  },
+  "require": {},
+  "require-dev": {}
+}
